@@ -1,12 +1,53 @@
 section{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1800px;
     margin: 0 auto;
 }
 .logo img{
-    max-width: 300px;
+    max-width: 150px;
 
 }
-.menu ul li{
+.menu ul li {
     display: inline;
 }
+header {
+    padding: 20px 0;
+    background-color: rgb(85, 84, 84);
+}
+.logo,.menu{
+    display: inline-block;
+
+}
+.menu ul li a{
+    
+   color: #dc0502;
+   text-decoration: none;
+    display: inline;
+    padding: 0 25px;
+    font-size: 20px;
+    
+}
+.menu{
+    position: relative;
+    bottom: 40px;
+
+}
+.menu ul li a:hover{
+    color: #000;
+    border-bottom: 3px solid;
+    padding-bottom: 15px;
+    
+}
+.menu ul li button {
+    background-color: #ffffff;
+}
+.slider{
+    background-image: url(img2.jpg);
+    height: 500px; 
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+
+
+    
