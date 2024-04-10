@@ -29,7 +29,7 @@ header {
 }
 .menu{
     position: relative;
-    bottom: 40px;
+    bottom: 1px;
 
 }
 .menu ul li a:hover{
@@ -47,6 +47,15 @@ header {
     background-position-x: center;
     background-position-y: center;
     background-repeat: no-repeat;
+    background-size: cover;
+}
+.item{
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+}
+.item img{
+    width: 100%;
 }
 
 
