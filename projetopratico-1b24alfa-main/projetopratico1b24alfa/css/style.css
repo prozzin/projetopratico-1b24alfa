@@ -1,0 +1,121 @@
+section{
+    width: 100%;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+.logo img{
+    max-width: 150px;
+
+}
+.menu ul li {
+    display: inline;
+}
+header {
+    padding: 20px 0;
+    background-color: #000000;
+}
+.logo,.menu{
+    display: inline-block;
+
+}
+.menu ul li a{
+    
+   color: #dc0502;
+   text-decoration: none;
+    display: inline;
+    padding: 0 25px;
+    font-size: 20px;
+    
+}
+.menu{
+    position: relative;
+    bottom: 1px;
+
+}
+.menu ul li a:hover{
+    color: #ffffff;
+    border-bottom: 3px solid;
+    padding-bottom: 15px;
+    
+}
+.menu ul li button {
+    background-color: #ffffff;
+}
+.slider{
+    background-image: url(img2.jpg);
+    height: 400px; 
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item{
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    border: 2px solid #000000;
+
+}
+.item img{
+    width: 100%;
+    
+
+    
+}
+.item .titulo, .item .preco{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 800;
+    color: #000000;
+}
+.btn{ 
+    background-color: #060606;
+    color: #fff;
+    text-align: center;
+    width: 50%; 
+    margin: 10px auto;
+    padding:5px;
+    border-radius: 20px;
+    border: 2px solid #626262;
+    text-decoration: none;
+}
+.item a{
+    text-decoration: none;
+}
+section .produtos{
+    background-color: #bababa;
+}
+footer{
+    background-color:#000000;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding: 40px;
+}
+footer label, label input, footer textarea{
+    width: 100%;
+    padding: 10px;
+}
+footer form{
+    width: 100%;
+    max-width:500px;
+    margin: 0 auto;
+}
+.whats{
+    background-color: green;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    right: 150px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+    
